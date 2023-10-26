@@ -1,0 +1,28 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background:linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contain {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+.hero_image {
+    background-image: url("../images/hero-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 450px;
+    height: 386px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 117px;
+    right: -650px;
+  }
